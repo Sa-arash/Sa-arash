@@ -1,2 +1,233 @@
+"""
+Readme Development Metrics With waka time progress
+"""
+from asyncio import run
+from datetime import datetime
+from typing import Dict
+from urllib.parse import quote
 
-<html><!-- This Page copyright 1999-2002 Basic Web Resource Site, A Duncan--><HEAD><META name=description content="This site looks at basic web design. This page looks at a page with only HTML"><META name=keywords content="HTML only page, html, notepad,WYSIWYG editors, tutorial, web site, website, design, resource, beginner"><META name=author content="A Duncan"><LINK REL="SHORTCUT ICON" href=http://www.fluffbucket.com/myicon.ico><title>Basic Web Resource Site - COOL TIP - HTML only page</title><link rel=stylesheet href=../bwsrstyle.css></head><body bgcolor=#FFFFFF><table border=2 width=600 cellspacing=0 cellpadding=0><tr><td><table border=0 width=100% cellpadding=3 cellspacing=0><tr><td width=130 bgcolor=#9898ff><br><br><br><br></td><td width=10 bgcolor="#9999FF">&nbsp;</td><td width=460 bgcolor="#9999FF"><table width="100%" border="0"><tr><td width="74%">&nbsp;</td><td width="26%"><!-- #BeginLibraryItem "/Library/search bar.lbi" --><h4 align="center">BWRS<br> SEARCH</h4><form method=get action=http://search.atomz.com/search/ target="_top"><div align="center"> <input size=15 name=sp-q> <input type=submit value="Go !" name=submit> <input type=hidden name=sp-a value=00040743-sp00000000></div></form><!-- #EndLibraryItem --></td></tr></table></td></tr><tr><td width=130 bgcolor=#9898ff>&nbsp;</td><td width=10>&nbsp;</td><td width=460>&nbsp;</td></tr><tr><td width=130 bgcolor=#9898ff>&nbsp;</td><td width=10>&nbsp;</td><td width=460><div align=center><table border=1 width=95% cellspacing=0 cellpadding=0 align=center><tr align="center" valign="middle"><td width=25%><div align=center><a href=../index.htm class=special><b><font size=2 face="Arial, Helvetica, sans-serif">HOME</font></b></a> <font size=2 face="Arial, Helvetica, sans-serif"><b>&gt;</b></font></div></td><td width=25%><div align=center><font face="Arial, Helvetica, sans-serif"><b><font size=2><a href=../basicweb.htm class=special>TUTORIALS</a> &gt;</font></b></font></div></td><td width=25%><font face="Arial, Helvetica, sans-serif"><b><a href=../howto.htm class=special><font size=2>COOL TIPS</font></a><font size=2> &gt; </font></b></font></td><td width=25%><div align=center><font face="Arial, Helvetica, sans-serif"><b><b><font face="Arial, Helvetica, sans-serif"><b><font size=2><a href="index.htm" class="special">INDEX</a> &gt; </font></b></font></b></b></font></div></td></tr><tr align="center" valign="middle"><td width=25%><font face="Arial, Helvetica, sans-serif"><b><b><font face="Arial, Helvetica, sans-serif"><b><font size="2">HTML ONLY </font></b></font></b></b></font></td><td width=25%>&nbsp;</td><td width=25%>&nbsp;</td><td width=25%>&nbsp;</td></tr></table> <h1>THE HTML ONLY PAGE</h1></div></td></tr><tr><td width=130 bgcolor=#9898ff valign=top><h4 align=left>&nbsp;</h4> <h4 align=left>SITE MENU</h4> <form name="form1" action="../index.htm" method="get"><div align="center"> <input type="submit" name="Button5" value="Home"></div> </form> <form name="form1" action="../basicweb.htm" method="get"><div align="center"> <input type="submit" name="Submit" value="Tutorials"></div> </form> <form name="form1" action="../links.htm" method="get"><div align="center"> <input type="submit" name="Submit" value="Links"></div> </form> <form name="form1" action="../forum.htm" method="get"><div align="center"> <input type="submit" name="Button2" value="Forum/Help"></div> </form> <form name="form1" action="../glossaryframe.htm" method="get"><div align="center"> <input type="submit" name="Button3" value="Glossary"></div> </form> <form name="form1" action="../news.htm" method="get"><div align="center"> <input type="submit" name="Button4" value="NEWS"></div> </form><br><br><br><br><p>&nbsp;</p><p><p></p></td><td width=10>&nbsp;</td><td width=460 align=left valign=top><br><div id=Layer1 style="position:absolute; width:250px; height:100px; z-index:1; left: 27px; top: 45px"><table border=1 width=100% bgcolor=#FF6666><tr><td height=93><h2><font face="Courier New, Courier, mono">BASIC WEB RESOURCE SITE </font></h2></td></tr></table></div><p>This page is completely stripped down. It only uses HTML v 4.0 code, no graphics, no JavaScript and no sneeky code</p><p>You might ask why do it?<br></p><p>The answer is size</p><p>This page is only 10k in size in total (that'll take abou 3 seconds for a 28.8k modem to download). Although our page in HTML terms is the same size as many on this site by the time you've added in all the graphics even just for navigation things bloat up to 3 times that size</p><p>And this page appears little different from our usual pages.<br><br> Okay our logo and standing graphics are gone and the layout resembles our older site design with a menu border. However the layout and functionality are little changed. There's a cool Logo at the top which seems to over lay the page. At the bottom there's navigation buttons just like any page in the website</p><p>How do we do it?</p><p>Well the bones of the page are made up of 2 tables (you should be familar with tables we've tutorials on this for <a href=../html/table.htm target=_blank>HTML</a>, <a href=../nsc/tables.htm target=_blank>composer</a> and <a href=../fpe/tables.htm target=_blank>Frontpage Express</a></p><p>We use a 1 X 1 table to make the outline of the page (it is set at awidth of 600 pixels and has a 2 pixel border)</p><p>Inside this we have a another table set with the following attributes<br></p><blockquote><p> border="0"<br> width="100%"<br> cellpadding="3"<br> cellspacing="0"</p></blockquote><p>The column is this table are set at 130, 10 and 460 pixels respectively and the first column has a background colour setting of 9898FF RGB code.</p><p>This gives the following appearence</p><table border=1 width=150 align=center cellspacing=0><tr><td width=25% bgcolor=#9898ff><p>&nbsp;</p><p>&nbsp;</p></td><td width=3%>&nbsp;</td><td width=72%>&nbsp;</td></tr></table><p align=left>This provided the coloured menu background and a 10 pixel gutter to seperate it from the main body of text</p><p align=left>Our Logo is created by a 1 x1 cell table. It appears layered ove the underlying page by using style sheets (see our HTML tutorial on <a href=../html/style.htm>style sheets</a>). Here we use an inline style sheet affecting a division tag. It is placed at the bottom of the HTML document</p><p align=left>&lt;div style="position:absolute;<br> width:250px; height:100px;<br> z-index:1; left: 25px; top: 30px"&gt;<br> &lt;table border="1" width="100%" bgcolor="#FF6666"&gt;<br> &lt;td&gt;&lt;h2&gt;Basic Web Resource site&lt;/h2&gt;&lt;/td&gt;<br> &lt;/table&gt;<br> &lt;/div&gt;</p><p align=left>The &lt;div&gt; tag (lines 1-3) define the position and size of the division. It is placed absoulutely on the page 25 pixels from the left side and 30 pixels down and in a size defined as 250 x 100 pixels</p><p align=left>The next 3 lines just define the table and text used before the division is closed on on line 7 (&lt;/div&gt;)</p><p align=left>Our buttons on the side &amp; below are created as described in our <a href=button.htm>link button without graphics</a> cool tip</p><p align=left>The rest is just routine text and links</p><table border=0 cellpadding=3 width=280 align=center><tr><td align=center valign=top><form action=index.htm method=GET><p><input type=submit name=B1 value="Cool Tips Index"></p></form></td><td align=center valign=top><form action=../howto.htm method=GET><p><input type=submit name=B1 value="Cool Tips Main"></p></form></td></tr></table><div align="center"> <h6><br> page tweaked 2003 &copy; BWRS A. Duncan </h6></div><p>&nbsp;</p><!-- #BeginLibraryItem "/Library/bottom link.lbi" --><link rel="stylesheet" href="../bwsrstyle.css" type="text/css"><p align="center"><a href="../legal.htm" target="newwin" onClick="window.open('','newwin','width=400,height=300,scrollbars=1,scrollbars=yes')" class="special"><font size="2">terms &amp; conditions copyright &#169; 1999-2003</font></a><font size="2"> <a href="../legal.htm" target="newwin" onClick="window.open('','newwin','width=400,height=300,scrollbars=1,scrollbars=yes')" class="special">legal notices</a><a href=../index.htm target="_top" class="special"><br> home</a> <a href=../credits.htm target="_top" class="special">credits</a></font> <font size="2"><a href=../emailme.htm target="_top" class="special">contact us</a> <a href=../linktous.htm target="_top" class="special">link to us</a></font></p><!-- #EndLibraryItem --><p align=center><br></p></td></tr></table></td></tr></table></body></html>
+from humanize import intword, naturalsize, intcomma
+
+from manager_download import init_download_manager, DownloadManager as DM
+from manager_environment import EnvironmentManager as EM
+from manager_github import init_github_manager, GitHubManager as GHM
+from manager_file import init_localization_manager, FileManager as FM
+from manager_debug import init_debug_manager, DebugManager as DBM
+from graphics_chart_drawer import create_loc_graph, GRAPH_PATH
+from yearly_commit_calculator import calculate_commit_data
+from graphics_list_formatter import make_list, make_commit_day_time_list, make_language_per_repo_list
+
+
+async def get_waka_time_stats(repositories: Dict, commit_dates: Dict) -> str:
+    """
+    Collects user info from wakatime.
+    Info includes most common commit time, timezone, language, editors, projects and OSs.
+
+    :param repositories: User repositories list.
+    :param commit_dates: User commit data list.
+    :returns: String representation of the info.
+    """
+    DBM.i("Adding short WakaTime stats...")
+    stats = str()
+
+    data = await DM.get_remote_json("waka_latest")
+    if data is None:
+        DBM.p("WakaTime data unavailable!")
+        return stats
+    if EM.SHOW_COMMIT or EM.SHOW_DAYS_OF_WEEK:  # if any on flag is turned on then we need to calculate the data and print accordingly
+        DBM.i("Adding user commit day time info...")
+        stats += f"{await make_commit_day_time_list(data['data']['timezone'], repositories, commit_dates)}\n\n"
+
+    if EM.SHOW_TIMEZONE or EM.SHOW_LANGUAGE or EM.SHOW_EDITORS or EM.SHOW_PROJECTS or EM.SHOW_OS:
+        no_activity = FM.t("No Activity Tracked This Week")
+        stats += f"📊 **{FM.t('This Week I Spend My Time On')}** \n\n```text\n"
+
+        if EM.SHOW_TIMEZONE:
+            DBM.i("Adding user timezone info...")
+            time_zone = data["data"]["timezone"]
+            stats += f"🕑︎ {FM.t('Timezone')}: {time_zone}\n\n"
+
+        if EM.SHOW_LANGUAGE:
+            DBM.i("Adding user top languages info...")
+            lang_list = no_activity if len(data["data"]["languages"]) == 0 else make_list(data["data"]["languages"])
+            stats += f"💬 {FM.t('Languages')}: \n{lang_list}\n\n"
+
+        if EM.SHOW_EDITORS:
+            DBM.i("Adding user editors info...")
+            edit_list = no_activity if len(data["data"]["editors"]) == 0 else make_list(data["data"]["editors"])
+            stats += f"🔥 {FM.t('Editors')}: \n{edit_list}\n\n"
+
+        if EM.SHOW_PROJECTS:
+            DBM.i("Adding user projects info...")
+            project_list = no_activity if len(data["data"]["projects"]) == 0 else make_list(data["data"]["projects"])
+            stats += f"🐱‍💻 {FM.t('Projects')}: \n{project_list}\n\n"
+
+        if EM.SHOW_OS:
+            DBM.i("Adding user operating systems info...")
+            os_list = no_activity if len(data["data"]["operating_systems"]) == 0 else make_list(data["data"]["operating_systems"])
+            stats += f"💻 {FM.t('operating system')}: \n{os_list}\n\n"
+
+        stats = f"{stats[:-1]}```\n\n"
+
+    DBM.g("WakaTime stats added!")
+    return stats
+
+
+async def get_short_github_info() -> str:
+    """
+    Collects user info from GitHub public profile.
+    The stats include: disk usage, contributions number, whether the user has opted to hire, public and private repositories number.
+
+    :returns: String representation of the info.
+    """
+    DBM.i("Adding short GitHub info...")
+    stats = f"**🐱 {FM.t('My GitHub Data')}** \n\n"
+
+    DBM.i("Adding user disk usage info...")
+    if GHM.USER.disk_usage is None:
+        disk_usage = FM.t("Used in GitHub's Storage") % "?"
+        DBM.p("Please add new github personal access token with user permission!")
+    else:
+        disk_usage = FM.t("Used in GitHub's Storage") % naturalsize(GHM.USER.disk_usage)
+    stats += f"> 📦 {disk_usage} \n > \n"
+
+    data = await DM.get_remote_json("github_stats")
+    if data is None:
+        DBM.p("GitHub contributions data unavailable!")
+        return stats
+    DBM.i("Adding contributions info...")
+    if len(data["years"]) > 0:
+        contributions = FM.t("Contributions in the year") % (intcomma(data["years"][0]["total"]), data["years"][0]["year"])
+        stats += f"> 🏆 {contributions}\n > \n"
+    else:
+        DBM.p("GitHub contributions data unavailable!")
+
+    DBM.i("Adding opted for hire info...")
+    opted_to_hire = GHM.USER.hireable
+    if opted_to_hire:
+        stats += f"> 💼 {FM.t('Opted to Hire')}\n > \n"
+    else:
+        stats += f"> 🚫 {FM.t('Not Opted to Hire')}\n > \n"
+
+    DBM.i("Adding public repositories info...")
+    public_repo = GHM.USER.public_repos
+    if public_repo != 1:
+        stats += f"> 📜 {FM.t('public repositories') % public_repo} \n > \n"
+    else:
+        stats += f"> 📜 {FM.t('public repository') % public_repo} \n > \n"
+
+    DBM.i("Adding private repositories info...")
+    private_repo = GHM.USER.owned_private_repos if GHM.USER.owned_private_repos is not None else 0
+    if public_repo != 1:
+        stats += f"> 🔑 {FM.t('private repositories') % private_repo} \n > \n"
+    else:
+        stats += f"> 🔑 {FM.t('private repository') % private_repo} \n > \n"
+
+    DBM.g("Short GitHub info added!")
+    return stats
+
+
+async def collect_user_repositories() -> Dict:
+    """
+    Collects information about all the user repositories available.
+
+    :returns: Complete list of user repositories.
+    """
+    DBM.i("Getting user repositories list...")
+    repositories = await DM.get_remote_graphql("user_repository_list", username=GHM.USER.login, id=GHM.USER.node_id)
+    repo_names = [repo["name"] for repo in repositories]
+    DBM.g("\tUser repository list collected!")
+
+    contributed = await DM.get_remote_graphql("repos_contributed_to", username=GHM.USER.login)
+
+    contributed_nodes = [repo for repo in contributed if repo is not None and repo["name"] not in repo_names and not repo["isFork"]]
+    DBM.g("\tUser contributed to repository list collected!")
+
+    return repositories + contributed_nodes
+
+
+async def get_stats() -> str:
+    """
+    Creates new README.md content from all the acquired statistics from all places.
+    The readme includes data from wakatime, contributed lines of code number, GitHub profile info and last updated date.
+
+    :returns: String representation of README.md contents.
+    """
+    DBM.i("Collecting stats for README...")
+
+    stats = str()
+    repositories = await collect_user_repositories()
+
+    if EM.SHOW_LINES_OF_CODE or EM.SHOW_LOC_CHART or EM.SHOW_COMMIT or EM.SHOW_DAYS_OF_WEEK:  # calculate commit data if any one of these is enabled
+        yearly_data, commit_data = await calculate_commit_data(repositories)
+    else:
+        yearly_data, commit_data = dict(), dict()
+        DBM.w("User yearly data not needed, skipped.")
+
+    if EM.SHOW_TOTAL_CODE_TIME:
+        DBM.i("Adding total code time info...")
+        data = await DM.get_remote_json("waka_all")
+        if data is None:
+            DBM.p("WakaTime data unavailable!")
+        else:
+            stats += f"![Code Time](http://img.shields.io/badge/{quote('Code Time')}-{quote(str(data['data']['text']))}-blue)\n\n"
+
+    if EM.SHOW_PROFILE_VIEWS:
+        DBM.i("Adding profile views info...")
+        data = GHM.REMOTE.get_views_traffic(per="week")
+        stats += f"![Profile Views](http://img.shields.io/badge/{quote(FM.t('Profile Views'))}-{data['count']}-blue)\n\n"
+
+    if EM.SHOW_LINES_OF_CODE:
+        DBM.i("Adding lines of code info...")
+        total_loc = sum([yearly_data[y][q][d]["add"] for y in yearly_data.keys() for q in yearly_data[y].keys() for d in yearly_data[y][q].keys()])
+        data = f"{intword(total_loc)} {FM.t('Lines of code')}"
+        stats += f"![Lines of code](https://img.shields.io/badge/{quote(FM.t('From Hello World I have written'))}-{quote(data)}-blue)\n\n"
+
+    if EM.SHOW_SHORT_INFO:
+        stats += await get_short_github_info()
+
+    stats += await get_waka_time_stats(repositories, commit_data)
+
+    if EM.SHOW_LANGUAGE_PER_REPO:
+        DBM.i("Adding language per repository info...")
+        stats += f"{make_language_per_repo_list(repositories)}\n\n"
+
+    if EM.SHOW_LOC_CHART:
+        await create_loc_graph(yearly_data, GRAPH_PATH)
+        stats += f"**{FM.t('Timeline')}**\n\n{GHM.update_chart('Lines of Code', GRAPH_PATH)}"
+
+    if EM.SHOW_UPDATED_DATE:
+        DBM.i("Adding last updated time...")
+        stats += f"\n Last Updated on {datetime.now().strftime(EM.UPDATED_DATE_FORMAT)} UTC"
+
+    DBM.g("Stats for README collected!")
+    return stats
+
+
+async def main():
+    """
+    Application main function.
+    Initializes all managers, collects user info and updates README.md if necessary.
+    """
+    init_github_manager()
+    await init_download_manager(GHM.USER.login)
+    init_localization_manager()
+    DBM.i("Managers initialized.")
+
+    stats = await get_stats()
+    if not EM.DEBUG_RUN:
+        GHM.update_readme(stats)
+        GHM.commit_update()
+    else:
+        GHM.set_github_output(stats)
+    await DM.close_remote_resources()
+
+
+if __name__ == "__main__":
+    init_debug_manager()
+    start_time = datetime.now()
+    DBM.g("Program execution started at $date.", date=start_time)
+    run(main())
+    end_time = datetime.now()
+    DBM.g("Program execution finished at $date.", date=end_time)
+    DBM.p("Program finished in $time.", time=end_time - start_time)
